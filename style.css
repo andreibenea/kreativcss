@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Roboto-Black', sans-serif;
+    src: url('./fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-BlackItalic', sans-serif;
+    src: url('./fonts/Roboto-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold', sans-serif;
+    src: url('./fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-BoldItalic', sans-serif;
+    src: url('./fonts/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Italic', sans-serif;
+    src: url('./fonts/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Light', sans-serif;
+    src: url('./fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic', sans-serif;
+    src: url('./fonts/Roboto-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium', sans-serif;
+    src: url('./fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-MediumItalic', sans-serif;
+    src: url('./fonts/Roboto-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular', sans-serif;
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Thin', sans-serif;
+    src: url('./fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-ThinItalic', sans-serif;
+    src: url('./fonts/Roboto-ThinItalic.ttf') format('truetype');
+}
+
+* {
+    color: #F9FAF8;
+    font-family: 'Roboto-Italic', sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+img {
+    object-fit: cover;
+}
+
+h1 {
+    color: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    padding: 8px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
