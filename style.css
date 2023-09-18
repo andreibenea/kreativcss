@@ -64,13 +64,17 @@
 }
 
 body {
-    margin-left: 1in;
-    margin-right: 1in;
+    padding-left: 1in;
+    padding-right: 1in;
     background-color: #1F2937;
+    max-width: 1920px;
 }
 
 img {
     object-fit: cover;
+    border: 1px;
+    margin: 2px;
+    padding: 2px;
 }
 
 button {
@@ -124,14 +128,12 @@ button:active:after {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
-    margin-left: 1in;
     left: 0;
     right: 0;
     background: #1F2937;
     height: auto;
-    width: 100vw;
     padding-top: 40px;
     color: #F9FAF8;
     display: flex;
@@ -143,6 +145,8 @@ footer {
 
 h1 {
     color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 ul {
@@ -159,9 +163,22 @@ a {
     padding: 8px;
 }
 
-.flex-container {
+.flex-container-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+
+.flex-container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.flex-container-body-inner {
+    max-width: 550px;
+}
+
