@@ -266,6 +266,16 @@ footer {
     margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .button {
     background-color: #3882f6;
@@ -280,6 +290,7 @@ footer {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .button:hover {
