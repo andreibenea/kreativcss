@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -18,17 +86,29 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
+
 html {
     height: 100%;
     box-sizing: border-box;
 }
-*, 
-*:after, 
-*:before{
+
+*,
+*:after,
+*:before {
     box-sizing: inherit;
 }
 
@@ -93,19 +173,42 @@ html {
 }
 
 * {
-    color: #DED9D9;
+    color: #F9FAF8;
     font-family: 'Roboto-Medium', sans-serif;
 }
 
 header {
     background-color: #1F2937;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #F9FAF8;
+    color: black;
+}
+
+#landing {
+    margin-top: 100px;
 }
 
 img {
     object-fit: cover;
 }
 
-button{
+button {
     padding: 0;
     border: none;
 }
@@ -163,6 +266,16 @@ footer {
     margin: 0 auto;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .button {
     background-color: #3882f6;
@@ -177,6 +290,7 @@ footer {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+    border-radius: 8px;
 }
 
 .button:hover {
@@ -213,8 +327,6 @@ footer {
     opacity: 1;
     transition: 0s
 }
-
-
 
 .flex-header {
     display: flex;
