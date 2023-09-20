@@ -221,3 +221,11 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+.contact-info {
+    display: inline-block; /* or inline */
+}
+
+.contact-info p {
+    margin-right: 20px; /* Add spacing between paragraphs */
+}

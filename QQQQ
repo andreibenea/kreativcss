@@ -1,0 +1,222 @@
+[33mcommit fd996feecfb006cc5075232c92451e1016d0dd7f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 774f88e 76a4333
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Wed Sep 20 10:19:37 2023 +0300
+
+    Merge pull request #11 from andreibenea/abenea-2
+    
+    Merge from abenea-2 into master - patch2
+
+[33mcommit 76a4333aa9e195b170b021d2f80765f1201ef36e[m[33m ([m[1;31morigin/abenea-2[m[33m)[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Wed Sep 20 10:17:06 2023 +0300
+
+    add anchors and rename sections
+
+[33mcommit 5b0ab7bccb96621e4d244558cc68756a4d1f5ac7[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Wed Sep 20 10:13:51 2023 +0300
+
+    added sections w ids and h1 styling
+
+[33mcommit 7c8dc7612f904b3f350a43949f8817d2c3213385[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Wed Sep 20 09:25:52 2023 +0300
+
+    logo cleanup
+
+[33mcommit 774f88ead7a6b1e8a9a34c2f6e161ecb890ec4f5[m
+Merge: a933061 d4d7bba
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Wed Sep 20 09:08:29 2023 +0300
+
+    Merge pull request #10 from andreibenea/Legrik2-patch-1
+    
+    Legrik2 patch 1
+
+[33mcommit d4d7bba6c0970f94161b06848bfb83a5fe539439[m[33m ([m[1;31morigin/Legrik2-patch-1[m[33m)[m
+Author: Legrik2 <144489938+Legrik2@users.noreply.github.com>
+Date:   Wed Sep 20 01:14:21 2023 +0300
+
+    Add files via upload
+
+[33mcommit cb29013b75087fa0e60c183ce6a66b6a1f8d1129[m
+Author: Legrik2 <144489938+Legrik2@users.noreply.github.com>
+Date:   Wed Sep 20 01:12:00 2023 +0300
+
+    Add files via upload
+
+[33mcommit 44e82c64f39ede812f4f2596970534b4645535ab[m
+Author: Legrik2 <144489938+Legrik2@users.noreply.github.com>
+Date:   Wed Sep 20 01:08:15 2023 +0300
+
+    Add files via upload
+
+[33mcommit a9330617fc3c1e0431cf402e5119b0b71af92e04[m
+Merge: de9077a 8895436
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Mon Sep 18 18:58:40 2023 +0300
+
+    Merge pull request #8 from andreibenea/homepage-ab
+    
+    merge homepage changes
+
+[33mcommit 8895436e663df5e86b2d26b4edce29ec325177b9[m
+Merge: 41700d5 de9077a
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Mon Sep 18 13:21:21 2023 +0300
+
+    Merge branch 'master' into homepage-ab
+
+[33mcommit 41700d5d562ee31ce379ffbabe1fd9bdaad01b5b[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Mon Sep 18 13:15:06 2023 +0300
+
+    stashing minor style changes
+
+[33mcommit de9077a8b9686fa088a44f9b1d3fa9b498f06f38[m
+Merge: 09c2892 fc9325d
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Mon Sep 18 13:10:26 2023 +0300
+
+    Merge pull request #5 from andreibenea/newenvtest
+    
+    Create jekyll-docker.yml
+
+[33mcommit 09c2892232426dec3f43ba501c4d977259ea57b5[m
+Merge: 14d4bc2 65ed06a
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Mon Sep 18 13:05:58 2023 +0300
+
+    Merge pull request #6 from andreibenea/test
+    
+    Merge pull request #4 from andreibenea/master
+
+[33mcommit fc9325d8131ebc3443103be407fb1d9803a99a9c[m
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Mon Sep 18 13:04:07 2023 +0300
+
+    Create jekyll-docker.yml
+    
+    testing creation of build job for test environment
+
+[33mcommit 65ed06a8b4e3d99b529b0b282094e671782ced91[m
+Merge: 0e42ece 14d4bc2
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Mon Sep 18 13:02:06 2023 +0300
+
+    Merge pull request #4 from andreibenea/master
+    
+    update test env
+
+[33mcommit abe11616263c0e2c144e053dc983fd9fc0890494[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 23:35:52 2023 +0300
+
+    add button
+
+[33mcommit 14d4bc208e546db240b0f669a54a1dc7b118391a[m
+Merge: 7555fc2 6c4993e
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 23:05:20 2023 +0300
+
+    Merge pull request #3 from andreibenea/homepage-ab
+    
+    style changes
+
+[33mcommit 6c4993ea7100ad03945dd1e356edff29d66dab01[m
+Merge: 7c27032 7555fc2
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 23:05:01 2023 +0300
+
+    Merge branch 'master' into homepage-ab
+
+[33mcommit 7c2703279ccad41451bc8281017b1480435a7d2c[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 23:03:21 2023 +0300
+
+    navbar starts looking good
+
+[33mcommit d6d8f31f73ab24c1f682a66fdeb0890d2a7d9c91[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 22:30:15 2023 +0300
+
+    add all fonts
+
+[33mcommit d154ea162f1f18b0dd5edddea16ea4ea900e4c0a[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 20:27:02 2023 +0300
+
+    add logo and more style items
+
+[33mcommit 7555fc2c0ffc1bf62165fcd99981a766c60b2683[m
+Merge: b59883c 1b1a175
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 17:46:26 2023 +0300
+
+    Merge pull request #2 from andreibenea/homepage-ab
+    
+    add favicon
+
+[33mcommit 1b1a175320600f8c6e5c4e9a31013fcdd0ff5112[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 17:44:01 2023 +0300
+
+    reorder attributes
+
+[33mcommit 9906cfafa351df1752e71e7b84c5df570c1b20ae[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 17:42:49 2023 +0300
+
+    add favicon
+
+[33mcommit b59883c6acc9cf97feaefc5db6fcd169cd4a9c46[m
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 17:34:48 2023 +0300
+
+    Update README.md
+
+[33mcommit 11db1bf37260694d6177d0ce49900a68b5eccc35[m
+Merge: f8d950d 3fc1a0f
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 17:24:05 2023 +0300
+
+    Merge pull request #1 from andreibenea/homepage-ab
+    
+    custom fonts and style file
+
+[33mcommit 3fc1a0fff2b35052bb8255c154fff099566eb48c[m
+Author: Andrei Benea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 17:21:05 2023 +0300
+
+    custom fonts and style file
+
+[33mcommit f8d950d5d180000daca49ae2b88d921e41b2365b[m
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 16:34:48 2023 +0300
+
+    Update README.md
+    
+    adjusted text
+
+[33mcommit 0e42ece6fa3c67acecaf4da093a6a25424548a57[m
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 16:21:50 2023 +0300
+
+    Update README.md
+    
+    add some instructions to the readme file
+
+[33mcommit 2edfc676e782c57884dd8322bb925d4465e91556[m
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 16:13:52 2023 +0300
+
+    initial commit
+    
+    create index.html page via github
+
+[33mcommit 4defddf7773f2c15bfb906800a140e5783b6f331[m
+Author: andreibenea <andrei.benea89@gmail.com>
+Date:   Sun Sep 17 15:57:21 2023 +0300
+
+    Initial commit
