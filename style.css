@@ -178,7 +178,7 @@ html {
 }
 
 header {
-    background-color: #1F2937;
+    background-color: rgb(5 4 6 / 40%);
     position: fixed;
     top: 0;
     left: 0;
@@ -190,9 +190,12 @@ nav a {
     display: block;
     color: #F9FAF8;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-size: 18px;
+    border-radius: 25%;
+    width: 85px;
+    margin-left: 5px
 }
 
 nav a:hover {
@@ -214,10 +217,10 @@ button {
 }
 
 h1 {
-    color: #F9FAF8;
     font-family: "Roboto", sans-serif;
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 30px;
 }
 
 ul {
@@ -234,18 +237,25 @@ a {
     font-size: 22px;
 }
 
+p {
+    font-size: 1.55em;
+}
+
 body {
     line-height: 1;
     margin-left: 1in;
     margin-right: 1in;
-    background-image: url('./images/background.jpg');
+    margin-top: 240px;
+    background: url('./images/background.jpg') rgb(19 19 19 / 96%);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100%;
+
 
 }
 
 footer {
-    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -274,33 +284,35 @@ footer {
 .flex-container-vertical {
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 
 
 .button {
-    background-color: #3882f6;
+    background-color: rgb(5 4 6 / 60%);
     position: relative;
     border: none;
     font-size: 28px;
     color: #F9FAF8;
     padding: 20px;
-    width: 200px;
+    width: 30%;
     text-align: center;
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
     border-radius: 8px;
+    margin-top: 60px;
 }
 
 .button:hover {
-    background-color: #F9FAF8;
+    background-color: rgb(255 255 255 / 40%);
     position: relative;
     border: none;
     font-size: 28px;
-    color: #3882f6;
+    color: #000000;
     padding: 20px;
-    width: 200px;
+    width: 30%;
     text-align: center;
     transition-duration: 0.4s;
     text-decoration: none;
@@ -332,4 +344,15 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 75px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
 }
