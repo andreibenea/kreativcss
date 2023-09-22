@@ -185,6 +185,14 @@ header {
     right: 0;
 }
 
+footer {
+    background-color: rgb(5 4 6 / 40%);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 nav a {
     float: right;
     display: block;
@@ -255,21 +263,6 @@ body {
     height: 100%;
 
 
-}
-
-footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    padding-top: 40px;
-    color: #F9FAF8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: #1F2937;
 }
 
 .container {
@@ -353,6 +346,13 @@ footer {
 }
 
 .flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.flex-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
