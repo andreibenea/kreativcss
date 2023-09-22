@@ -387,5 +387,26 @@ border: 4px solid white ;
     margin-right: 70px;
 }
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
 
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
 
+.contact-info2 ul{
+    list-style: none !important;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.contact-info2 li{
+    margin-bottom: 10px;
+}
