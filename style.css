@@ -66,7 +66,6 @@ details,
 embed,
 figure,
 figcaption,
-footer,
 header,
 hgroup,
 menu,
@@ -92,7 +91,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 menu,
@@ -244,32 +242,24 @@ p {
 }
 
 body {
-    line-height: 1;
-    margin-left: 1in;
-    margin-right: 1in;
     margin-top: 240px;
     background: rgb(0,3,4);
     background: linear-gradient(90deg, rgba(0,3,4,1) 0%, rgba(107,107,117,1) 48%, rgba(233,233,233,1) 100%);    
     background-size: cover;
     background-attachment: scroll;
-    height: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    padding-top: 40px;
-    margin-top: 80px;
+ footer {
+    height: 70px; 
+    margin-top: auto;
     color: #F9FAF8;
     background-color: rgb(5 4 6 / 40%);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
+    justify-content: center; 
+} 
 
 .top {
     display: flex;
@@ -376,9 +366,11 @@ footer {
 
 .flex-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 75px;
+    font-weight: bold;
+    font-size: large;
 }
 
 .wrapper {
@@ -643,3 +635,5 @@ border: 4px solid white ;
     font-weight: bold;
     text-align: justify;
 }
+
+
