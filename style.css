@@ -193,11 +193,11 @@ nav a {
     color: #F9FAF8;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 25%;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-right: 10px;
+    font-size: 5vh;
+    border-radius: 10%;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding-right: 1vh;
 }
 
 nav a:hover {
@@ -247,7 +247,10 @@ p {
 }
 
 body {
-    margin-top: 240px;
+    line-height: 1;
+    margin-left: 1in;
+    margin-right: 1in;
+    margin-top: 10%;
     background: rgb(0,3,4);
     background: linear-gradient(90deg, rgba(0,3,4,1) 0%, rgba(107,107,117,1) 48%, rgba(233,233,233,1) 100%);    
     background-size: cover;
@@ -261,6 +264,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    margin-top: 5%;
     color: #F9FAF8;
     background-color: rgb(5 4 6 / 40%);
     display: flex;
@@ -318,16 +322,17 @@ footer {
     border: none;
     font-size: 28px;
     color: #F9FAF8;
-    padding: 20px;
+    padding: 5%;
     width: 30%;
-    min-width: 165px;
+    min-width: fit-content;
+    max-width: 2vh;
     text-align: center;
     transition-duration: 0.4s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
-    border-radius: 8px;
-    margin-top: 60px;
+    border-radius: 5%;
+    margin-top: 5%;
 }
 
 .button:hover {
@@ -350,10 +355,6 @@ footer {
     background: #f1f1f1;
     display: block;
     position: absolute;
-    padding-top: 300%;
-    padding-left: 350%;
-    margin-left: -20px !important;
-    margin-top: -120%;
     opacity: 0;
     transition: all 0.8s
 }
@@ -648,15 +649,16 @@ blockquote {
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: #E5E7EB;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-bottom: 5%;
     padding-top: 5%;
     font-style: italic;
-    color: #1F2937; 
+    color: #1F2937;
+    min-width: fit-content;
   }
 
 .quote p {
@@ -676,4 +678,11 @@ cite {
 #quote-sign {
     background-color: #E5E7EB;
     color: #1F2937;
+}
+
+#headline {
+    max-width: min-content;
+    text-align: right;
+    position: relative;
+    float: right;
 }
