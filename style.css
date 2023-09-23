@@ -185,6 +185,14 @@ header {
     right: 0;
 }
 
+footer {
+    background-color: rgb(5 4 6 / 40%);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 nav a {
     float: right;
     display: block;
@@ -366,6 +374,13 @@ footer {
 }
 
 .flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.flex-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
