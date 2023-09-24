@@ -188,30 +188,6 @@ header {
     min-height: fit-content;
 }
 
-/* nav a {
-    float: right;
-    display: block;
-    color: #F9FAF8;
-    text-align: center;
-    text-decoration: none;
-    font-size: 5vh;
-    border-radius: 10%;
-    margin-left: 1vh;
-    margin-right: 1vh;
-    padding-right: 1vh;
-}
-
-nav a:hover {
-    background-color: #F9FAF8;
-    color: black;
-} */
-
-/* a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 22px;
-} */
-
 img {
     object-fit: cover;
 }
@@ -784,7 +760,7 @@ cite {
     }
 
     .nav>#nav-check:checked~.nav-links {
-        height: calc(100vh - 50px);
+        height: fit-content;
         overflow-y: auto;
     }
 }
