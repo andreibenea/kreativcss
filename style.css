@@ -225,8 +225,8 @@ p {
 
 body {
     margin-top: 240px;
-    background: rgb(0,3,4);
-    background: linear-gradient(90deg, rgba(0,3,4,1) 0%, rgba(107,107,117,1) 48%, rgba(233,233,233,1) 100%);    
+    background: rgb(0, 3, 4);
+    background: linear-gradient(90deg, rgba(0, 3, 4, 1) 0%, rgba(107, 107, 117, 1) 48%, rgba(233, 233, 233, 1) 100%);
     background-size: cover;
     background-attachment: scroll;
     display: flex;
@@ -234,14 +234,14 @@ body {
     flex-direction: column;
 }
 
- footer {
-    height: 70px; 
+footer {
+    height: 70px;
     margin-top: auto;
     color: #F9FAF8;
     background-color: rgb(5 4 6 / 40%);
     display: flex;
-    justify-content: center; 
-} 
+    justify-content: center;
+}
 
 .top {
     display: flex;
@@ -662,14 +662,18 @@ cite {
 }
 
 .nav {
-    height: 50px;
+    height: 15%;
     width: 100%;
-    background-color: #4d4d4d;
     position: relative;
+    align-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    background-color: rgb(5 4 6 / 40%);
 }
 
 .nav>.nav-header {
     display: inline;
+    margin-left: 10%;
 }
 
 .nav>.nav-header>.nav-title {
@@ -687,6 +691,7 @@ cite {
     display: inline;
     float: right;
     font-size: 18px;
+    margin-right: 10%;
 }
 
 .nav>.nav-links>a {
@@ -705,6 +710,11 @@ cite {
 }
 
 @media (max-width:600px) {
+    #logo {
+        width: 38px;
+        height: auto;
+    }
+
     .nav>.nav-btn {
         display: inline-block;
         position: absolute;
@@ -721,7 +731,7 @@ cite {
 
     .nav>.nav-btn>label:hover,
     .nav #nav-check:checked~.nav-btn>label {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgb(5 4 6 / 40%);
     }
 
     .nav>.nav-btn>label>span {
@@ -735,7 +745,7 @@ cite {
         position: absolute;
         display: block;
         width: 100%;
-        background-color: #333;
+        background-color: rgb(5 4 6 / 40%);
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
@@ -766,12 +776,6 @@ cite {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color:#000;
-}
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
 form {
@@ -849,3 +853,159 @@ button:hover {
 }
 
 /* yazan */
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.animation {
+    animation: rotate 25s infinite; 
+    position: relative;
+    z-index: -1;   
+}
+
+.goal-section {
+    width: 66%;
+    font-size: 3.2rem;
+    text-align: center;
+}
+.animation-bagel {
+    height: 295px;
+    width: 295px;
+    overflow: hidden;
+
+}
+
+.animation-bagel img {
+    width: 300px; 
+    height: auto;
+}
+
+.container-goal {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top-characteristic {
+    margin-top: 100px;
+}
+
+.characteristic-left {
+    width: 60%;
+}
+
+.characteristic-left h2{
+    height: 125px;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 5% 4% / 21% 24%;
+    font-size: 3.8em;;
+}
+
+.characteristic-left h3 {
+    color: black;
+    padding: 35px 0 0 50px;
+    width: 40%;
+    font-size: 1.3em;
+}
+
+.characteristic-left p {
+    color: black;
+    padding: 30px 50px 0 0;
+    width: 55%;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.container-characteristic {    
+    min-width: 200px;
+    width: 90%;
+    height: 180px;
+    background-color: #ffffff;
+    margin: 20px 0; 
+    border-radius: 5% 4% / 16% 20%;
+}
+
+.characteristic-right{
+    margin-top: 25px;
+}
+
+.characteristic-right img {
+    margin-bottom: 145px;
+    border-radius: 4%;
+}
+.animation-ball {
+    height: 300px;
+    width: 81%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: -40px;
+
+}
+
+.animation-ball img {
+    width: 346px;
+    height: auto;
+    margin-left: -31px;
+    margin-top: -28px;
+}
+
+.img-top {
+    width: 400px; 
+    height: auto;
+}
+
+.animation {
+    animation: rotate 25s infinite; 
+    position: relative;
+    z-index: -1;   
+}
+
+
+
+.banner {
+    background-color: #4d4d4d;
+    min-height: 15vh;
+    margin-bottom: 1vh;
+}
+
+.flex-container-banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: inherit;
+    margin-top: 10%;
+}
+
+#signupbutton {
+    margin-top: 10%;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    min-width: 30vh;
+    min-height: auto;
+    height: 8vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+@media screen and (min-width: 425px) and (max-width: 1060px) {
+    #signupbutton {
+        margin-bottom: 2vh;
+    }
+}
