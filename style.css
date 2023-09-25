@@ -662,14 +662,18 @@ cite {
 }
 
 .nav {
-    height: 50px;
+    height: 15%;
     width: 100%;
-    background-color: #4d4d4d;
     position: relative;
+    align-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    background-color: rgb(5 4 6 / 40%);
 }
 
 .nav>.nav-header {
     display: inline;
+    margin-left: 10%;
 }
 
 .nav>.nav-header>.nav-title {
@@ -687,6 +691,7 @@ cite {
     display: inline;
     float: right;
     font-size: 18px;
+    margin-right: 10%;
 }
 
 .nav>.nav-links>a {
@@ -705,6 +710,11 @@ cite {
 }
 
 @media (max-width:600px) {
+    #logo {
+        width: 38px;
+        height: auto;
+    }
+
     .nav>.nav-btn {
         display: inline-block;
         position: absolute;
@@ -721,7 +731,7 @@ cite {
 
     .nav>.nav-btn>label:hover,
     .nav #nav-check:checked~.nav-btn>label {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: rgb(5 4 6 / 40%);
     }
 
     .nav>.nav-btn>label>span {
@@ -735,7 +745,7 @@ cite {
         position: absolute;
         display: block;
         width: 100%;
-        background-color: #333;
+        background-color: rgb(5 4 6 / 40%);
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
