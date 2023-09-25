@@ -224,10 +224,7 @@ p {
 }
 
 body {
-    line-height: 1;
-    margin-left: 1in;
-    margin-right: 1in;
-    margin-top: 10%;
+    margin-top: 240px;
     background: rgb(0, 3, 4);
     background: linear-gradient(90deg, rgba(0, 3, 4, 1) 0%, rgba(107, 107, 117, 1) 48%, rgba(233, 233, 233, 1) 100%);
     background-size: cover;
@@ -238,16 +235,12 @@ body {
 }
 
 footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin-top: 5%;
+    height: 70px;
+    margin-top: auto;
     color: #F9FAF8;
     background-color: rgb(5 4 6 / 40%);
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: right;
 }
 
 .top {
@@ -765,119 +758,42 @@ cite {
     }
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg)
-  }
-  100% {
-    transform: rotate(360deg)
-  }
+.banner {
+    background-color: #4d4d4d;
+    min-height: 15vh;
+    margin-bottom: 1vh;
 }
 
-.animation {
-    animation: rotate 25s infinite; 
-    position: relative;
-    z-index: -1;   
+.flex-container-banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
-.goal-section {
-    width: 66%;
-    font-size: 3.2rem;
-    text-align: center;
-}
-.animation-bagel {
-    height: 295px;
-    width: 295px;
-    overflow: hidden;
-
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: inherit;
+    margin-top: 10%;
 }
 
-.animation-bagel img {
-    width: 300px; 
-    height: auto;
+#signupbutton {
+    margin-top: 10%;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    min-width: 30vh;
+    min-height: auto;
+    height: 8vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
 }
 
-.container-goal {
-    margin-top: 100px;
-    margin-bottom: 100px;
+@media screen and (min-width: 425px) and (max-width: 1060px) {
+    #signupbutton {
+        margin-bottom: 2vh;
+    }
 }
-
-.top-characteristic {
-    margin-top: 100px;
-}
-
-.characteristic-left {
-    width: 60%;
-}
-
-.characteristic-left h2{
-    height: 125px;
-    color: black;
-    padding: 20px 50px;
-    border-radius: 5% 4% / 21% 24%;
-    font-size: 3.8em;;
-}
-
-.characteristic-left h3 {
-    color: black;
-    padding: 35px 0 0 50px;
-    width: 40%;
-    font-size: 1.3em;
-}
-
-.characteristic-left p {
-    color: black;
-    padding: 30px 50px 0 0;
-    width: 55%;
-    font-size: 1em;
-    text-align: justify;
-}
-
-.container-characteristic {    
-    min-width: 200px;
-    width: 90%;
-    height: 180px;
-    background-color: #ffffff;
-    margin: 20px 0; 
-    border-radius: 5% 4% / 16% 20%;
-}
-
-.characteristic-right{
-    margin-top: 25px;
-}
-
-.characteristic-right img {
-    margin-bottom: 145px;
-    border-radius: 4%;
-}
-.animation-ball {
-    height: 300px;
-    width: 81%;
-    overflow: hidden;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    margin-left: 40px;
-    margin-right: -40px;
-
-}
-
-.animation-ball img {
-    width: 346px;
-    height: auto;
-    margin-left: -31px;
-    margin-top: -28px;
-}
-
-.img-top {
-    width: 400px; 
-    height: auto;
-}
-
-.animation {
-    animation: rotate 25s infinite; 
-    position: relative;
-    z-index: -1;   
-}
-
-
-
