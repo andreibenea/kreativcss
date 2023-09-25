@@ -764,95 +764,120 @@ cite {
         overflow-y: auto;
     }
 }
-/* yazan */
 
-.my-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color:#000;
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
 }
 
-h1 {
-    font-size: 24px;
+.animation {
+    animation: rotate 25s infinite; 
+    position: relative;
+    z-index: -1;   
+}
+
+.goal-section {
+    width: 66%;
+    font-size: 3.2rem;
+    text-align: center;
+}
+.animation-bagel {
+    height: 295px;
+    width: 295px;
+    overflow: hidden;
+
+}
+
+.animation-bagel img {
+    width: 300px; 
+    height: auto;
+}
+
+.container-goal {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.top-characteristic {
+    margin-top: 100px;
+}
+
+.characteristic-left {
+    width: 60%;
+}
+
+.characteristic-left h2{
+    height: 125px;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 5% 4% / 21% 24%;
+    font-size: 3.8em;;
+}
+
+.characteristic-left h3 {
+    color: black;
+    padding: 35px 0 0 50px;
+    width: 40%;
+    font-size: 1.3em;
+}
+
+.characteristic-left p {
+    color: black;
+    padding: 30px 50px 0 0;
+    width: 55%;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.container-characteristic {    
+    min-width: 200px;
+    width: 90%;
+    height: 180px;
+    background-color: #ffffff;
+    margin: 20px 0; 
+    border-radius: 5% 4% / 16% 20%;
+}
+
+.characteristic-right{
+    margin-top: 25px;
+}
+
+.characteristic-right img {
+    margin-bottom: 145px;
+    border-radius: 4%;
+}
+.animation-ball {
+    height: 300px;
+    width: 81%;
+    overflow: hidden;
     margin-bottom: 20px;
-    text-align: center;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: -40px;
+
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.animation-ball img {
+    width: 346px;
+    height: auto;
+    margin-left: -31px;
+    margin-top: -28px;
 }
 
-label {
-    font-weight: bold;
-    margin-bottom: 8px;
+.img-top {
+    width: 400px; 
+    height: auto;
 }
 
-input, textarea {
-    padding: 10px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    color: #333;
-}
-
-textarea {
-    resize: vertical;
-}
-
-button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 12px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #0056b3;
+.animation {
+    animation: rotate 25s infinite; 
+    position: relative;
+    z-index: -1;   
 }
 
 
 
-.got-a-question {
-    background-color: #A9A9A9;
-    color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-}
-
-.got-a-question h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.got-a-question p {
-    font-size: 20px;
-    line-height: 1.5; 
-    text-align: center;
-}
-
-
-.contact-info {
-    display: flex; /* Make children flex items */
-    justify-content: space-between; /* Space items horizontally */
-    width: 100%; /* Full width */
-    margin-bottom: 20px; /* Add spacing between paragraphs and copyright */
-}
-
-.contact-info p {
-    text-align: center; /* Center the text horizontally */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    line-height: 1.5;
-
-}
-
-/* yazan */
