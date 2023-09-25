@@ -225,8 +225,8 @@ p {
 
 body {
     margin-top: 240px;
-    background: rgb(0,3,4);
-    background: linear-gradient(90deg, rgba(0,3,4,1) 0%, rgba(107,107,117,1) 48%, rgba(233,233,233,1) 100%);    
+    background: rgb(0, 3, 4);
+    background: linear-gradient(90deg, rgba(0, 3, 4, 1) 0%, rgba(107, 107, 117, 1) 48%, rgba(233, 233, 233, 1) 100%);
     background-size: cover;
     background-attachment: scroll;
     display: flex;
@@ -234,14 +234,14 @@ body {
     flex-direction: column;
 }
 
- footer {
-    height: 70px; 
+footer {
+    height: 70px;
     margin-top: auto;
     color: #F9FAF8;
     background-color: rgb(5 4 6 / 40%);
     display: flex;
-    justify-content: center; 
-} 
+    justify-content: center;
+}
 
 .top {
     display: flex;
@@ -755,5 +755,45 @@ cite {
     .nav>#nav-check:checked~.nav-links {
         height: fit-content;
         overflow-y: auto;
+    }
+}
+
+.banner {
+    background-color: #4d4d4d;
+    min-height: 15vh;
+    margin-bottom: 1vh;
+}
+
+.flex-container-banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: inherit;
+    margin-top: 10%;
+}
+
+#signupbutton {
+    margin-top: 10%;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    min-width: 30vh;
+    min-height: auto;
+    height: 8vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+@media screen and (min-width: 425px) and (max-width: 1060px) {
+    #signupbutton {
+        margin-bottom: 2vh;
     }
 }
