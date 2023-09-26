@@ -179,13 +179,14 @@ html {
     font-family: 'Roboto-Medium', sans-serif;
 }
 
-header {
-    background-color: rgb(5 4 6 / 40%);
+header {    
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     min-height: fit-content;
+    background: #1F2937;
+    z-index: 2;
 }
 
 img {
@@ -200,15 +201,18 @@ button {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     margin-bottom: 30px;
+    color: #F9FAF8;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 38px;
-    font-weight: bolder;
+    font-size: 36px;
+    font-weight: 800;
     text-align: center;
+    color: #1F2937;
+    padding-bottom: 45px;
 }
 
 ul {
@@ -224,11 +228,11 @@ p {
 }
 
 body {
-    margin-top: 240px;
+ /*   margin-top: 240px;
     background: rgb(0, 3, 4);
     background: linear-gradient(90deg, rgba(0, 3, 4, 1) 0%, rgba(107, 107, 117, 1) 48%, rgba(233, 233, 233, 1) 100%);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: scroll;*/
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -243,12 +247,22 @@ footer {
     justify-content: center;
 }
 
+.head-bg{
+    /*background: #F9FAF8*/
+    
+}
 .top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 50%;
+}
+
+.top-bg {
+    background: #1F2937;
+    padding-top: 180px;
+    padding-bottom: 50px;
 }
 
 .container {
@@ -271,6 +285,12 @@ footer {
 .flex-container-vertical {
     display: flex;
     flex-direction: column;
+}
+
+.flex-container-vertical p { 
+     font-family: 'Roboto', sans-serif;  
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .text-box {
@@ -414,6 +434,9 @@ h1.services-title {
     margin: 20px 0;
     border-radius: 14%;
     transition: transform .4s ease-in;
+    border-style: solid;
+    border-color: #2882F6;
+    border-width: 4px;
 }
 
 @media screen and (min-width: 680px) and (max-width: 1060px) {
@@ -635,9 +658,12 @@ blockquote {
     min-width: fit-content;
 }
 
+.quote-bg{
+    background: #E5E7EB;
+}
+
 .quote p {
     font-family: 'Roboto-Italic', sans-serif;
-    background-color: #E5E7EB;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
@@ -668,7 +694,6 @@ cite {
     align-content: center;
     align-items: center;
     padding-top: 1vh;
-    background-color: rgb(5 4 6 / 40%);
 }
 
 .nav>.nav-header {
@@ -698,7 +723,8 @@ cite {
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #efefef;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .nav>.nav-links>a:hover {
@@ -863,12 +889,6 @@ button:hover {
   }
 }
 
-.animation {
-    animation: rotate 25s infinite; 
-    position: relative;
-    z-index: -1;   
-}
-
 .goal-section {
     width: 66%;
     font-size: 3.2rem;
@@ -964,16 +984,17 @@ button:hover {
 
 .animation {
     animation: rotate 25s infinite; 
-    position: relative;
-    z-index: -1;   
+    position: relative; 
 }
 
 
 
 .banner {
-    background-color: #4d4d4d;
-    min-height: 15vh;
-    margin-bottom: 1vh;
+    background-color: #3882F6;
+    margin-bottom: 15px;
+    padding-bottom: 45px;
+    padding-top: 25px;
+    border-radius: 2% 2% / 16% 20%;
 }
 
 .flex-container-banner {
@@ -994,14 +1015,19 @@ h3 {
 
 #signupbutton {
     margin-top: 10%;
-    color: #1F2937;
-    background-color: #E5E7EB;
+    color: #F9FAF8;
     min-width: 30vh;
     min-height: auto;
     height: 8vh;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 3vh;
+    background-color: #3882F6;    
+    border-radius: 4% 4% / 16% 20%;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
+    height: 54px;
 }
 
 @media screen and (min-width: 425px) and (max-width: 1060px) {
