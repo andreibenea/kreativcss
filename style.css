@@ -242,7 +242,7 @@ footer {
     height: 70px;
     margin-top: auto;
     color: #F9FAF8;
-    background-color: rgb(5 4 6 / 40%);
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
 }
@@ -293,6 +293,11 @@ footer {
     color: #E5E7EB;
 }
 
+.flex-container-vertical a { 
+     height: 150px;
+}
+
+
 .text-box {
     font-size: large;
     font-weight: bold;
@@ -307,7 +312,7 @@ footer {
 }
 
 .button {
-    background-color: rgb(5 4 6 / 60%);
+    background-color: #3882F6;
     position: relative;
     border: none;
     font-size: 28px;
@@ -317,7 +322,7 @@ footer {
     min-width: fit-content;
     max-width: 2vh;
     text-align: center;
-    transition-duration: 0.4s;
+    transition-duration: 2s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
@@ -326,15 +331,16 @@ footer {
 }
 
 .button:hover {
-    background-color: rgb(255 255 255 / 40%);
+    background-color: #3882F6;
     position: relative;
     border: none;
     font-size: 28px;
-    color: #000000;
+    color: #1F2937;
     padding: 20px;
-    width: 30%;
+    width: 50%;
+    height: 100%
     text-align: center;
-    transition-duration: 0.4s;
+    transition-duration: 2s;
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
@@ -346,7 +352,7 @@ footer {
     display: block;
     position: absolute;
     opacity: 0;
-    transition: all 0.8s
+    transition: all 2s
 }
 
 .button:active:after {
@@ -439,6 +445,10 @@ h1.services-title {
     border-width: 4px;
 }
 
+.categories-down {
+    margin-bottom: 50px;
+}
+
 @media screen and (min-width: 680px) and (max-width: 1060px) {
     .wrap-categories {
         width: 48%;
@@ -464,10 +474,6 @@ h1.services-title {
         padding: 10px 16px;
         display: flex;
         justify-content: space-between;
-    }
-
-    .popup-close {
-        margin-bottom: 67px !important;
     }
 
 }
@@ -563,7 +569,6 @@ h1.services-title {
     opacity: 0;
     visibility: hidden;
     overflow-y: auto;
-    ;
     overflow-x: hidden;
     transition: all 0.8s ease 0s;
 }
@@ -593,6 +598,7 @@ h1.services-title {
     align-items: center;
     justify-content: center;
     padding-left: 30px 10px;
+    margin-top: 25px;
 }
 
 .popup-wrap {
@@ -616,8 +622,9 @@ h1.services-title {
     font-size: 35px;
     color: #000;
     font-weight: bold;
-    border: 1px solid;
-    margin-bottom: 28px;
+    border: 1px solid;    
+    margin-bottom: 67px;
+    text-decoration: none;
 }
 
 .popup-title {
@@ -697,8 +704,24 @@ cite {
 }
 
 .nav>.nav-header {
-    display: inline;
+    display: inline-block;
     margin-left: 10%;
+}
+
+.nav-header a {
+    color: #F9FAF8;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-header img {
+    padding-right: 20px;
+    width: 60px;
+    height: auto;
 }
 
 .nav>.nav-header>.nav-title {
@@ -728,17 +751,25 @@ cite {
 }
 
 .nav>.nav-links>a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 .nav>#nav-check {
     display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:750px) {
+    .top {
+        justify-content: flex-start;
+    }
     #logo {
-        width: 38px;
+        width: 50px;
         height: auto;
+    }
+
+    .nav {
+        padding-bottom: 19px;
     }
 
     .nav>.nav-btn {
@@ -757,7 +788,7 @@ cite {
 
     .nav>.nav-btn>label:hover,
     .nav #nav-check:checked~.nav-btn>label {
-        background-color: rgb(5 4 6 / 40%);
+        background-color: rgb(31 41 55 / 40%);
     }
 
     .nav>.nav-btn>label>span {
@@ -771,7 +802,7 @@ cite {
         position: absolute;
         display: block;
         width: 100%;
-        background-color: rgb(5 4 6 / 40%);
+        background-color: rgb(31 41 55 / 85%);
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
@@ -782,6 +813,7 @@ cite {
     .nav>.nav-links>a {
         display: block;
         width: 100%;
+        text-align: center;
     }
 
     .nav>#nav-check:not(:checked)~.nav-links {
@@ -792,6 +824,18 @@ cite {
         height: fit-content;
         overflow-y: auto;
     }
+
+    .container-goal {
+        padding-left: 30px;
+    }   
+
+    .flex-footer {
+        margin-left: -90px;
+    }
+
+    h2 {
+        margin-left: -50px;
+    } 
 }
 /* yazan */
 
@@ -907,8 +951,10 @@ button:hover {
 }
 
 .container-goal {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .top-characteristic {
@@ -921,21 +967,22 @@ button:hover {
 
 .characteristic-left h2{
     height: 125px;
-    color: black;
+    color: #F9FAF8;
     padding: 20px 50px;
     border-radius: 5% 4% / 21% 24%;
     font-size: 3.8em;;
 }
 
 .characteristic-left h3 {
-    color: black;
-    padding: 35px 0 0 50px;
-    width: 40%;
+    color: #E5E7EB;
+    padding: 0 0 0 30px;
+    width: 42%;
     font-size: 1.3em;
+    margin-top: 4%
 }
 
 .characteristic-left p {
-    color: black;
+    color: #E5E7EB;
     padding: 30px 50px 0 0;
     width: 55%;
     font-size: 1em;
@@ -946,7 +993,7 @@ button:hover {
     min-width: 200px;
     width: 90%;
     height: 180px;
-    background-color: #ffffff;
+    background-color: #1f2937;
     margin: 20px 0; 
     border-radius: 5% 4% / 16% 20%;
 }
@@ -997,6 +1044,12 @@ button:hover {
     border-radius: 2% 2% / 16% 20%;
 }
 
+@media screen and (min-width: 425px) and (max-width: 1060px) {
+    .banner {
+        border-radius: 10% 10% / 16% 20%;
+    }
+}
+
 .flex-container-banner {
     display: flex;
     flex-flow: row wrap;
@@ -1015,10 +1068,10 @@ h3 {
 
 #signupbutton {
     margin-top: 10%;
+    text-align: center;
     color: #F9FAF8;
-    min-width: 30vh;
-    min-height: auto;
-    height: 8vh;
+    min-width: 200px;
+    min-height: 70px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 3vh;
@@ -1030,8 +1083,19 @@ h3 {
     height: 54px;
 }
 
+#signupbutton:hover {
+  background-color: #F9FAF8;
+  color: #1F2937;
+
+}
+
 @media screen and (min-width: 425px) and (max-width: 1060px) {
     #signupbutton {
-        margin-bottom: 2vh;
+        
     }
+}
+
+.wrap-industries {
+    background: #1F2937;
+
 }
