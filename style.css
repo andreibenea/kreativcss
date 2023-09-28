@@ -301,9 +301,10 @@ footer {
 .text-box {
     font-size: large;
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .img-top {
@@ -338,7 +339,7 @@ footer {
     color: #1F2937;
     padding: 20px;
     width: 50%;
-    height: 100%
+    height: 100%;
     text-align: center;
     transition-duration: 2s;
     text-decoration: none;
