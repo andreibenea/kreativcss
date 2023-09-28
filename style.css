@@ -338,11 +338,11 @@ footer {
     color: #1F2937;
     padding: 20px;
     width: 50%;
-    height: 100%
-    text-align: center;
+    height: 100%;
+    text-align : center;
     transition-duration: 2s;
     text-decoration: none;
-    overflow: hidden;
+    overflow : hidden;
     cursor: pointer;
 }
 
@@ -846,7 +846,7 @@ cite {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color:#000;
-    background-color:#A9A9A9;
+    background-color:#909090;
 }
 
 form {
@@ -889,7 +889,7 @@ button:hover {
 
 
 .got-a-question {
-    background-color: #A9A9A9;
+    background-color: #909090;
     color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -923,6 +923,8 @@ button:hover {
     color: black;
 
 }
+
+
 
 /* yazan */
 
