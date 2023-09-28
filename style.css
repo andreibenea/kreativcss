@@ -802,6 +802,7 @@ cite {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color:#000;
+    background-color:#A9A9A9;
 }
 
 form {
@@ -875,6 +876,7 @@ button:hover {
     text-align: center; /* Center the text horizontally */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     line-height: 1.5;
+    color: black;
 
 }
 
