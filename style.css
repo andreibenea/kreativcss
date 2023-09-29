@@ -285,6 +285,12 @@ footer {
 .flex-container-vertical {
     display: flex;
     flex-direction: column;
+
+.flex-container-vertical p { 
+     font-family: 'Roboto', sans-serif;  
+    font-size: 18px;
+    color: #E5E7EB;
+}
 }
 
 .flex-container-vertical p { 
@@ -292,7 +298,6 @@ footer {
     font-size: 18px;
     color: #E5E7EB;
 }
-
 .flex-container-vertical a { 
      height: 150px;
 }
@@ -301,9 +306,14 @@ footer {
 .text-box {
     font-size: large;
     font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
     color: white;
     text-align: center;
     margin-top: 20px;
+
 }
 
 .img-top {
@@ -340,6 +350,8 @@ footer {
     width: 50%;
     height: 100%;
     text-align : center;
+    height: 100%;
+    text-align: center;
     transition-duration: 2s;
     text-decoration: none;
     overflow : hidden;
